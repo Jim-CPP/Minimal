@@ -4,6 +4,9 @@
 
 #include <windows.h>
 
+#include "Ascii.h"
+#include "Common.h"
+
 #define MAIN_WINDOW_CLASS_NAME													"Main Minimal Window Class"
 
 #define MAIN_WINDOW_CLASS_STYLE													0
@@ -25,11 +28,6 @@
 #define SYSTEM_MENU_ABOUT_ITEM_POSITION											6
 #define SYSTEM_MENU_ABOUT_ITEM_ID												1001
 #define SYSTEM_MENU_ABOUT_ITEM_TEXT												"About"
-
-#define ABOUT_MESSAGE_CAPTION													"About"
-#define ERROR_MESSAGE_CAPTION													"Error"
-#define INFORMATION_MESSAGE_CAPTION												"Information"
-#define WARNING_MESSAGE_CAPTION													"Warning"
 
 #define ABOUT_MESSAGE_TEXT														"Minimal\r\n"						\
 																				"\r\n"								\
